@@ -124,6 +124,9 @@ return packer.startup(function(use)
 	-- show line modifications on left hand side
 	use("lewis6991/gitsigns.nvim")
 
+	-- harpoon
+	use("ThePrimeagen/harpoon")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
